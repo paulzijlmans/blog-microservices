@@ -18,7 +18,7 @@ app.post('/events', async (req, res) => {
           id: data.id,
           postId: data.postId,
           status,
-          conten: data.content,
+          content: data.content,
         },
       })
       .catch((err) => {
